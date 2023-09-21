@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#nav{
+    width: 100vw;
+    min-height: 50px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 60px;
+}
+#logo{
+    width: 50px;
+    color: black;
+}
+.nav_links{
+    text-decoration: none;
+    font-weight:bold;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+::placeholder{
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+}
+#search{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    background-color:white;
+    color: black;
+    
+}
+#main_container{
+    width: 100vw;
+    min-height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    background-color:lightgray;
+}
+.box{
+    margin-top: 10px;
+    width: 200px;
+    height: 300px;
+    background-color: lightyellow;
+    /* border: 0.5px solid grey; */
+    border-top-left-radius: 6px ;
+    border-top-right-radius: 6px;
+    box-shadow: 2px 3px 4px grey;
+    
+}
+.tshirt{
+    width: 100%;
+    height: 80%;
+    border-bottom: 1px solid grey;
+}
+.box h3{
+    text-align: center;
+    text-transform: uppercase;
+    font: 500;
+}
+.box p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+}
+.text_div{
+    width:200px;
+    background-color: black;
+}
+#main_container2{
+    margin-top: 50px;
+    width: 100vw;
+    min-height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    background-color: antiquewhite;
+}
+.text_after_row2{
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px;
+    background-color: red;
+    border-radius: 50px;
+}
+#text_after_row2{
+    background-color: whitesmoke;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text_after_row3{
+    margin-top: 30px;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main_container3{
+    margin-top: 30px;
+    width: 100vw;
+    min-height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    background-color: lightgrey;
+}
+.text_after_row4{
+    margin-top: 30px;
+    background-color: white;
+    color:darkgoldenrod;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text_after_row4{
+    margin-top: 10px;
+    background-color: gold;
+    color:black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main_container4{
+    margin-top: 30px;
+    width: 100vw;
+    min-height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    background-color: pink;
+}
+.row4box{
+    background-color: lightyellow;
+}
+footer{
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self:flex-start;
+    align-items: baseline;
+    column-gap: 100px;
+    background-color: aliceblue;
+    
+}
+#topwears{
+    color: red;
+    font-weight:bold;
+    /* border: 1px solid black; */
+}
+.topwears{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px;
+}
+#bottomwears{
+    font-weight:bold;
+    color: red;
+}
+.bottomwears{
+    font-weight:bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px;
+}
+#footwears{
+    font-weight:bold;
+    color: red;
+}
+.footwears{
+    font-weight:bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px;
+}
+#indian_and_festival_wear{
+    font-weight:bold;
+    color: red;
+}
+.indianandfestivalwear{
+    font-weight:bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px;
+}
+#innerwearandsleepwear{
+    font-weight:bold;
+    color: red;
+}
+.inner_wear_and_sleep_wear{
+    font-weight:bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px;
+}
